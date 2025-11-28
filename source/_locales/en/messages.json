@@ -1,0 +1,14 @@
+{
+  "actionDefaultTitle": {
+    "message": "Copy address as Markdown link"
+  },
+  "name": {
+    "message": "Copy address as Markdown link"
+  },
+  "description": {
+    "message": "Extension allows you to copy the active tab address as a Markdown link."
+  },
+  "commandsExecuteActionDescription": {
+    "message": "Copy active tab address as Markdown link"
+  }
+}

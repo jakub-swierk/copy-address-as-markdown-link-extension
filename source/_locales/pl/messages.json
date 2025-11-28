@@ -1,0 +1,14 @@
+{
+  "actionDefaultTitle": {
+    "message": "Skopiuj adres jako link Markdown"
+  },
+  "name": {
+    "message": "Skopiuj adres jako link Markdown"
+  },
+  "description": {
+    "message": "Rozszerzenie pozwala na skopiowaine adresu aktywnej zakładki jako link Markdown."
+  },
+  "commandsExecuteActionDescription": {
+    "message": "Skopiuj adres aktywnej zakładki jako link Markdown"
+  }
+}

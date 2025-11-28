@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "default_locale": "en",
+  "action": {
+    "default_title": "__MSG_actionDefaultTitle__",
+    "default_icon": "light.svg",
+    "theme_icons": [
+      {
+        "dark": "light.svg",
+        "light": "dark.svg",
+        "size": 16
+      }
+    ]
+  },
+  "icons": {
+    "16": "icon.svg"
+  },
+  "author": "Jakub Świerk",
+  "homepage_url": "https://github.com/jakub-swierk/copy-address-as-markdown-link-extension",
+  "description": "__MSG_description__",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "copy-address-as-markdown-link-extension@swierk.me",
+      "strict_min_version": "134.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
+  "name": "__MSG_name__",
+  "version": "1.0.0",
+  "permissions": ["activeTab", "clipboardWrite"],
+  "commands": {
+    "_execute_action": {
+      "description": "__MSG_commandsExecuteActionDescription__"
+    }
+  }
+}
